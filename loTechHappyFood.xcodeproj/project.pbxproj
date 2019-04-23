@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		441F1135226F407F00717853 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441F1134226F407F00717853 /* AppDelegate.swift */; };
 		441F1137226F407F00717853 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441F1136226F407F00717853 /* FirstViewController.swift */; };
-		441F1139226F407F00717853 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441F1138226F407F00717853 /* SecondViewController.swift */; };
 		441F113C226F407F00717853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441F113A226F407F00717853 /* Main.storyboard */; };
 		441F113E226F408000717853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441F113D226F408000717853 /* Assets.xcassets */; };
 		441F1141226F408000717853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441F113F226F408000717853 /* LaunchScreen.storyboard */; };
 		441F114C226F408000717853 /* loTechHappyFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441F114B226F408000717853 /* loTechHappyFoodTests.swift */; };
+		441F1157226F5A3500717853 /* CustomTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441F1156226F5A3500717853 /* CustomTabController.swift */; };
+		441F1159226F60EB00717853 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441F1158226F60EB00717853 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,6 @@
 		441F1131226F407F00717853 /* loTechHappyFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loTechHappyFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		441F1134226F407F00717853 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		441F1136226F407F00717853 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		441F1138226F407F00717853 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		441F113B226F407F00717853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		441F113D226F408000717853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		441F1140226F408000717853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +38,8 @@
 		441F1147226F408000717853 /* loTechHappyFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loTechHappyFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		441F114B226F408000717853 /* loTechHappyFoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loTechHappyFoodTests.swift; sourceTree = "<group>"; };
 		441F114D226F408000717853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		441F1156226F5A3500717853 /* CustomTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabController.swift; sourceTree = "<group>"; };
+		441F1158226F60EB00717853 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				441F1134226F407F00717853 /* AppDelegate.swift */,
+				441F1156226F5A3500717853 /* CustomTabController.swift */,
 				441F1136226F407F00717853 /* FirstViewController.swift */,
-				441F1138226F407F00717853 /* SecondViewController.swift */,
 				441F113A226F407F00717853 /* Main.storyboard */,
+				441F1158226F60EB00717853 /* MainViewController.swift */,
 				441F113D226F408000717853 /* Assets.xcassets */,
 				441F113F226F408000717853 /* LaunchScreen.storyboard */,
 				441F1142226F408000717853 /* Info.plist */,
@@ -200,9 +203,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				441F1139226F407F00717853 /* SecondViewController.swift in Sources */,
 				441F1135226F407F00717853 /* AppDelegate.swift in Sources */,
+				441F1157226F5A3500717853 /* CustomTabController.swift in Sources */,
 				441F1137226F407F00717853 /* FirstViewController.swift in Sources */,
+				441F1159226F60EB00717853 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  CustomTabController.swift
 //  loTechHappyFood
 //
 //  Created by Kate Roberts on 23/04/2019.
@@ -8,13 +8,10 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class CustomTabController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.selectedIndex = 1 
     }
-
-
 }
-
